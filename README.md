@@ -6,6 +6,7 @@
 ## Overview
 The **TemperatureConversionApp** is a Flutter application that allows users to convert temperatures between Fahrenheit and Celsius. It provides an interactive UI with radio buttons for selecting the conversion type, text fields for input and output, and a history feature to keep track of previous conversions.
 ![homepage_prototype](assets/images/temperature_home.png)
+![mobile_app_shot](assets/images/mobile_screenshot.png)
 
 
 ## File Structure
@@ -49,9 +50,15 @@ The **TemperatureConversionApp** is a Flutter application that allows users to c
 - **AppBar**: Displays the title of the app.
 - **ListView**: Used to allow scrolling of content when there are many elements (like the history).
 - **Form**: Contains the input fields and radio buttons for temperature conversion.
+- **Column**: Aligns widgets vertically, such as buttons and text fields.
+- **Row**: Aligns widgets horizontally, such as the input field, result display, and history records.
+- **SizedBox**: Adds spacing between elements and defines the size of input fields, buttons, etc.
+- **Expanded**: Allows a child widget to expand and fill the available space within a Row or Column, ensuring that elements are properly sized and aligned.
+- **Container**: Wraps UI elements with styling, margins, padding, and borders.
 - **RadioListTile**: Provides options for the user to choose the type of conversion.
 - **TextFormField**: Used for inputting the temperature and displaying the converted value. The input field for the converted value is disabled to prevent user edits.
 - **ElevatedButton**: Buttons for submitting the conversion and clearing history.
+- **SingleChildScrollView**: This widget allows a single child widget to be scrollable. It is particularly useful in situations where you have a long list of widgets (like the calculation history in your temperature conversion app). By wrapping the column of results in a `SingleChildScrollView`, users can easily scroll through their conversion history without being limited by the screen size, enhancing the overall user experience.
 
 ## Error Handling
 - Displays error messages if the user input is invalid. This improves user experience by providing clear feedback.
