@@ -2,8 +2,11 @@
 
 # Temperature Conversion App Documentation
 
+
 ## Overview
 The **TemperatureConversionApp** is a Flutter application that allows users to convert temperatures between Fahrenheit and Celsius. It provides an interactive UI with radio buttons for selecting the conversion type, text fields for input and output, and a history feature to keep track of previous conversions.
+![homepage_prototype](assets/images/temperature_home.png)
+
 
 ## File Structure
 - **`main.dart`**: The entry point of the application.
