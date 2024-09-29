@@ -34,8 +34,8 @@ The **TemperatureConversionApp** is a Flutter application that allows users to c
 
 ### _calculateTemperature
 - This method performs the actual conversion based on the selected option.
-- **Conversion from Fahrenheit to Celsius**: Uses the formula \((5/9) \times (Fahrenheit - 32)\).
-- **Conversion from Celsius to Fahrenheit**: Uses the formula \(((9/5) \times Celsius) + 32\).
+- **Conversion from Fahrenheit to Celsius**: Uses the formula \((5/9) * (Fahrenheit - 32)\).
+- **Conversion from Celsius to Fahrenheit**: Uses the formula \(((9/5) * Celsius) + 32\).
 - Updates the calculation history by adding the result as a Row widget.
 
 ### _clearHistory
